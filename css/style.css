@@ -1191,7 +1191,7 @@ a {
     margin-left: 140px;
   }
   .coefficient {
-    margin: 0px 50px 0 25px;
+    margin: 0px -50px 0 2px;
   }
   .button-selector {
     padding: 35px 10px 10px 10px;
@@ -1258,7 +1258,7 @@ a {
     font-size: 13px;
   }
   .coefficient {
-    margin: 0px 1px 0 10px;
+    margin: 0px -145px 0 0px;
   }
   .coefficient nav div button {
     margin-left: 0px;
