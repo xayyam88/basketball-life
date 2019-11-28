@@ -1,3 +1,12 @@
+$screen-sm: 576px
+$screen-md: 768px
+$screen-lg: 992px
+$screen-xl: 1200px
+
+$screen-sm-max: 768px
+$screen-md-max: 992px
+$screen-lg-max: 1200px
+
 .left-bar
     &-wrap
         margin-left: 20px
@@ -77,3 +86,279 @@
             time
                 font-size: 13px
                 color: #898989
+
+
+@media ( min-width: $screen-lg-max )
+    .coefficient 
+        padding: 20px 150px 0 25px
+
+@media ( max-width: $screen-lg-max )
+    .header_menu 
+        a
+            padding: 6px 3px
+            font-size: 12px
+    .menu-more
+        margin-left: 10px
+
+    .navbar-footer-wrap > div
+        padding: 10px 20px
+
+    .navbar-footer-wrap > div
+        display: flex
+        flex-direction: column
+    .menu-more
+        margin-left: 140px
+
+    .button-selector
+        padding: 35px 10px 10px 10px
+    .article-wrap img 
+        padding: 20px 15px 30px 20px
+    .article-wrap
+        padding: 10px 2px
+
+    .button-selector button
+        padding: 10px 20px
+        font-size: 14px
+   
+    .buttom-days 
+    button
+        padding: 11px 13px
+        font-size: 16px
+    input
+        font-size: 16px
+    .icon-calendar
+        font-size: 16px
+
+    .rates-coffic-wrap
+        .coef-title-rates
+            width: auto
+
+    .rates-content-wrap2 
+        div
+            padding: 17px
+        .cofficent-index, .correct-score, .on-total, .handicap
+            button
+                width: 200px
+    .rates-wrap 
+        .tg 
+            tr
+                th
+                    font-size: 14px
+                td:first-child
+                    padding-right: 140px
+
+    .rates-content-wrap4
+        display: none
+        .canvas-diogram
+            width: 740px
+            height: 450px
+
+@media ( max-width: $screen-md-max )
+    .header_menu 
+        a
+            padding: 6px 3px
+            font-size: 12px
+    .menu-more
+        margin-left: 10px
+
+    .buttom-days 
+        button
+            font-size: 13px
+        input
+            font-size: 13px
+        .icon-calendar
+            font-size: 13px
+        
+    .coefficient nav div button
+        margin-left: 0px
+    .button-selector
+        padding: 35px 2px 10px 2px
+    .coefficient nav div span
+        width: 140px
+    .coefficient nav div button
+        padding: 6px 20px     
+    .left-bar-wrap
+        margin-left: 10px
+
+    .rates-coffic-wrap
+        h3
+            display: flex
+            font-size: 15px
+        .coef-title-rates
+            padding: 0px 17px 17px
+            width: auto
+
+        .coef-title-between 
+            time
+                font-size: 14px
+        .coefficient-title-button
+            button
+                width: auto
+                font-size: 13px
+                span
+                    padding-left: 15px
+
+        .coef-title-between
+            padding: 0px 40px 55px 40px
+
+    .main-page-rates-wrap
+        max-width: auto
+
+    
+    .rates-wrap .tg tr td:first-child
+        padding-right: 19px
+    
+@media ( max-width: $screen-sm-max )
+    .header_menu
+        display: none
+    .menu-adabtive-screen
+        display: inline
+    .menu-more li ul li:last-child
+        border-bottom: 1px solid #487389
+    .menu-more
+        margin-left: auto
+    .buttom-days 
+        button
+            padding: 11px 13px
+            font-size: 12px
+        input
+            font-size: 12px
+        .icon-calendar
+            font-size: 12px
+    .main-wrap
+        display: flex
+        flex-direction: column
+
+    .left-bar-wrap
+        margin-left: 0px
+        margin-top: 15px
+    .news-wrap .news-block
+        padding: 17px 45px 17px 17px
+
+    .main-wrap
+        align-items: stretch
+    .button-selector
+
+    .news-wrap .news-block
+        flex-basis: 80%
+    
+    .rates-wrap 
+        h2
+            font-size: 18px
+  
+@media ( max-width: $screen-sm )
+    .article-wrap
+        flex-direction: column
+        align-items: center
+        img
+            border-right: none
+        .button-selector
+            border-left: none
+        .coefficient
+            text-align: center
+            padding-top: 0px
+            h2
+                font-size: 16px
+            nav
+                div
+                    justify-content: center
+    
+    .express-sub-wrap>.coefficient
+        text-align: initial
+        padding-top: 20px
+
+    .express-sub-wrap>.coefficient nav div
+        justify-content: flex-start
+
+    .express-sub-buttom
+            padding-top: 0px
+    
+    .rates-content-wrap
+        padding-bottom: 25px
+
+    .rates-coffic-wrap
+        h3
+            font-size: 17px
+        .coefficient-title-button 
+            button
+                width: 200px
+        .coef-title-rates
+            border: none
+        .coef-title-between
+            padding: 40px 40px 0px 40px
+            time
+                font-size: 17px
+    .rates-content-wrap2 
+        div
+            width: auto
+            margin: 6px 0px
+    
+    .rates-content-wrap3>.rates-wrap
+        padding: 10px
+        h2
+            font-size: 16px
+            padding-left: 0px
+        .tg
+            overflow: auto
+            display: block
+            padding-left: 0px
+            width: 220px
+            tr
+                td
+                    padding: 2px
+                    button
+                        padding: 8px 8px
+                        font-size: 12px
+                td:first-child
+                    padding-right: 19px
+                    font-size: 13px
+                th
+                    padding: 2px
+                    font-size: 12px
+
+    .rates-content-wrap5
+        .canvas-diogram
+            width: 350px
+    .rates-content-wrap5
+        h1
+            font-size: 16px
+        .other-legue-coff
+            h3
+                font-size: 14px
+            button
+                padding: 10px 5px
+                font-size: 11px
+    
+    .express-wrap 
+        .express-sub-wrap
+            flex-direction: column
+            align-items: center
+        .express-sub-wrap 
+            > .coefficient
+                    text-align: center
+                    nav
+                        div
+                            justify-content: center
+
+    .coefficient 
+        nav
+            font-size: 13px
+
+    .subscription-form 
+        input
+            font-size: 11px
+            padding: 8px 8px
+    
+    .buttom-days
+        button
+            padding: 11px 11px
+            font-size: 11px
+        input
+            padding: 11px 16px 11px 30px
+            font-size: 11px
+
+    .rates-wrap 
+        h2
+            font-size: 16px
+
+
