@@ -1,0 +1,79 @@
+.left-bar
+    &-wrap
+        margin-left: 20px
+        flex-basis: 40%
+
+.subscription
+        background: #1a506c
+        text-align: center
+        color: #ffffff
+        padding: 30px 18px
+        h2
+            font-size: 16px
+            text-transform: uppercase
+        span
+            font-size: 13px
+
+.subscription-form
+    display: flex
+    margin-top: 17px
+    input
+        border: none
+        background: #ffffff
+        font-size: 13px
+        padding: 10px 10px
+        border-radius: 3px
+        margin: 0
+        width: 100%
+        &::placeholder
+    button
+        margin: 0
+        font-size: 14px
+        padding: 10px 10px
+        border: none
+        background: $base-color
+        border-radius: 3px
+        color: #ffffff
+        text-transform: uppercase
+        cursor: pointer
+        @extend .hover-style
+        &:hover
+            background: rgba(176, 29, 65, .9)
+
+.news
+    &-wrap
+        display: flex
+        background: #ffffff
+        margin: 5px 0px
+        i
+            color: #ffffff
+            position: absolute
+            background: $base-color
+            border-radius: 60%
+            font-size: 15px
+            padding: 9px 8px 10px 10px
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+                margin: 6px -40px
+            margin: 6px
+            cursor: pointer
+            @extend .hover-style
+            &:hover
+                background: rgba(176, 29, 65, .9)
+            
+        .icon-play-wrap
+            display: flex       
+            justify-content: flex-end
+        .news-block
+            flex-basis: 70%
+            padding: 17px
+            h2
+                font-size: 14px
+                padding-bottom: 5px
+                a
+                    color: #2e2e2e
+                    @extend .hover-style
+                    &:hover
+                        color: rgba(176, 29, 65, .9)                 
+            time
+                font-size: 13px
+                color: #898989

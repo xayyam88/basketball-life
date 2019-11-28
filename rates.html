@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#4285f4">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#4285f4">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!-- Яндекс.Браузер -->
+		<meta name="viewport" content="ya-title=#4e69a2,ya-dock=fade">
+		<!-- style -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- normalize -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<!-- jquery.ui.min -->
+		<link rel="stylesheet" href="ui/jquery-ui.min.css">
+		<title>Basketball</title>
+	</head>
+
+<body>
+	<!-- header -->
+	<header class="page-outer header">
+	<!-- top-menu -->	  	
+		<div class="navbar-wrap">
+			<div class="page-inner">
+				<div class="logo-img">			
+					<a href="index.html" class="site-logo">
+						<img src="img/logo.png" alt="logo">
+					</a>
+				</div>
+				<!-- /.logo -->
+
+			<nav>
+					<ul class="nav header_menu">
+						<li><a  href="#">Экспресс прогнозы</a></li>
+						<li><a  href="#">ЧМ Австрии</a></li>
+						<li><a  href="#">ЧМ Польши</a></li>
+						<li><a  href="#">ЧМ России</a></li>
+						<li><a  href="#">ЧМ Украины</a></li>
+						<li><a  href="#">ЧМ Бразилии</a></li>
+					</ul>
+			</nav>
+				<!-- /.header_menu -->
+
+				<nav>
+					<ul class="menu-more">
+						<li><a href="#" class="icon-menu">еще</a>
+							<ul>
+								<li><a href="#">Чемпионат Катара. Мужчины.</a></li>
+								<li><a href="#">Чемпионат Испании. 2-й дивизион NBA.</a></li>
+								<li><a href="#">NBA. Регулярный чемпионат.</a></li>
+								<li><a href="#">Чемпионат Китая. Мужчины.</a></li>
+								<li><a href="#">Чемпионат Катара. Мужчины.</a></li>
+								<li><a href="#">Чемпионат Испании. 2-й дивизион</a></li>
+								<li><a href="#">NBA. Регулярный чемпионат.</a></li>
+								<li><a href="#">Чемпионат Китая. Мужчины.</a></li>
+								<li><a href="#">Чемпионат Катара. Мужчины.</a></li>
+							</ul>
+						</li>
+					</ul>					
+				</nav>
+				<!-- /.header-menu-more -->
+			</div>
+			<!-- /.page-inner --> 
+		</div>
+		<!-- /.top-menu -->
+
+		<!-- /.footer-menu -->
+		<div class="navbar-footer-wrap">
+			<div class="page-inner">
+				
+				<div class="buttom-days">
+					<button type="button">Сегодня</button>
+					<button type="button">Завтра</button>
+					<div class="datepi-wrap">
+						<i class="icon-calendar"></i>
+						<input  type="button" value="tarix" id="datepicker" />
+					</div>
+				</div>
+				<!-- /.buttom-days --> 
+
+				<div class="imgScrollWrap">
+					<a class="imgScrollBtn01" href="javascript:void(0);"></a>
+					<a class="imgScrollBtn02" href="javascript:void(0);"></a>
+					<div class="imgScrollList">
+						<ul>
+							<li>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team1.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team2.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team3.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team4.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team5.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team6.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team5.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team6.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team5.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team6.png" alt="team-logo"/></a>				
+							</li>
+							<li>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team7.png" alt="team-logo"/></a>
+								<a href="#" class="team-logo"><img src="img/slider-teams/team8.png" alt="team-logo"/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.imgScrollWrap --> 	
+			</div>
+			<!-- /.page-inner -->
+		</div>
+		<!-- /.footer-menu -->
+	</header>
+	<!-- /.header -->
+	
+	<!-- breadcrumbs -->
+	<nav class="page-outer">
+		<div class="page-inner">
+			<div class="breadcrumbs">
+				<a href="index.html" >Прогнозы на теннис<i class="icon-next"></i></a>
+				<a href="index.html">Чемнионат мира</a>
+			</div>
+		</div>
+	</nav>
+	<!-- /.breadcrumbs -->	
+
+	<!-- /.main-content -->
+	<main class="page-outer">
+		<!-- /.page-inner -->	
+		<div class="page-inner main-wrap">
+			
+			<section class="main-page-rates-wrap">
+
+				<section class="article-wrap rates-content-wrap">
+					
+					<div class="rates-coffic-wrap">                                
+						<div class="coef-title-rates first-cild-title">  
+							<img src="img/slider-teams/team2-big.png" alt="team-logo"/>
+							<h3>Шэньчжэнь Лепардс</h3>
+						</div>
+						<div class="coefficient-title-button">                   
+							<button type="button">Ничья. <span>32.76</span></button>						
+						</div>								
+					</div>
+
+					<div class="rates-coffic-wrap time-content">                  		
+						<div class="coef-title-rates coef-title-between">  
+							<time datetime="2011-11-18T14:54">2011-11-18 14:54</time>
+							<span>осталось 2 дня</span>
+						</div> 
+						<div class="coefficient-title-button">                   
+							<button type="button">Рамос-Винолас А. <span>2.76</span></button>						
+						</div>         
+					</div>
+
+					<div class="rates-coffic-wrap">
+						<div class="coef-title-rates last-cild-title">  
+							<img src="img/slider-teams/team1-big.png" alt="team-logo"/>
+							<h3>Фуцзянь Сюньсине</h3>
+						</div> 
+						<div class="coefficient-title-button">                   
+							<button type="button">Соус Ж. <span>0.76</span></button>						
+						</div>           
+					</div>
+							
+				</section>
+				<!-- /.rates-content-wrap -->
+            
+				<section class="rates-content-wrap2">
+				<div class="cofficent-index">
+					<h2>Прогноз на исход</h2>
+					<p>Изначально когда рассматривал этот матч, я думал ставить на уверенную победу Кабрера, потом вспомнил насколько данный турнир очень непредсказуем и даже самые титульные сливают молодым и свежим! 
+						<br>Поэтому берём фору и не волнуясь ждём результата 
+					</p>
+					<button type="button">Прогноз на исход <span>32.76</span></button>
+				</div>
+
+				<div class="correct-score">
+					<h2>Прогноз на исход</h2>
+					<p>Изначально когда рассматривал этот матч, я думал ставить на уверенную победу Кабрера, потом вспомнил насколько данный турнир очень непредсказуем и даже самые титульные сливают молодым и свежим! 
+					<br>Поэтому берём фору и не волнуясь ждём результата </p>
+					<button type="button">Прогноз на исход <span>32.76</span></button>
+				</div>
+
+				<div class="on-total">
+					<h2>Прогноз на исход</h2>
+					<p>Изначально когда рассматривал этот матч, я думал ставить на уверенную победу Кабрера, потом вспомнил насколько данный турнир очень непредсказуем и даже самые титульные сливают молодым и свежим! 
+						<br>Поэтому берём фору и не волнуясь ждём результата </p>
+						<button type="button">Прогноз на исход <span>32.76</span></button>
+				</div>
+				
+				<div class="handicap">   
+					<h2>Прогноз на исход</h2>
+					<p>Изначально когда рассматривал этот матч, я думал ставить на уверенную победу Кабрера, потом вспомнил насколько данный турнир очень непредсказуем и даже самые титульные сливают молодым и свежим! 
+					<br>Поэтому берём фору и не волнуясь ждём результата </p>
+					<button type="button">Прогноз на исход <span>32.76</span></button>
+				</div>
+				</section>
+				<!-- /.rates-content-wrap2 -->
+				
+				<section class="article-wrap rates-content-wrap3">
+					<div class="rates-wrap">
+						<div class="rates-table">
+							<h2>Коэффициенты на матч</h2>	
+							<table class="tg">
+								<tr>
+								<th class="tg-0pky"></th>
+								<th class="tg-0pky">1</th>
+								<th class="tg-0pky">Х</th>
+								<th class="tg-0pky">2</th>
+								<th class="tg-0lax">ТМ2.5</th>
+								<th class="tg-0pky">Б2.5</th>
+								</tr>
+
+								<tr>
+								<td class="tg-0pky">Лига ставок России</td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0lax"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								</tr>
+
+								<tr>
+								<td class="tg-0pky">Ставка точку ру</td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0lax"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								</tr>
+
+								<tr>
+								<td class="tg-0pky">Лига ставок мира</td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								<td class="tg-0lax"><button>029</button></td>
+								<td class="tg-0pky"><button>029</button></td>
+								</tr>
+							</table>
+						</div>                            					                  
+					</div>  				
+				</section>	
+				<!-- /.rates-content-wrap3 -->
+
+				<section class="article-wrap rates-content-wrap4">
+					<div class="rates-wrap">
+					<h2>График роста/падения коэффициента</h2>
+					<canvas id="myChart" width="740" height="400"></canvas>
+						<div class="coefficient-title-button">                   
+							<button type="button">Сделать ставку!</button>						
+						</div>
+					</div>
+				</section>
+				<!-- /.rates-content-wrap4 -->
+
+				<section class="article-wrap rates-content-wrap5">
+					<div class="rates-wrap">
+						<h2>Другие прогнозы на Лигу чемпионов</h2>
+
+						<div class="other-legue-coff">
+							<img src="img/slider-teams/team1-big.png" alt="team-logo">
+							<h3>Аль-Ахли - Аль-Джаиш</h3>
+							<button type="button">Выбрать!</button>
+						</div>
+
+						<div class="other-legue-coff">
+							<img src="img/slider-teams/team2-big.png" alt="team-logo">
+							<h3>Аль-Ахли - Аль-Джаиш</h3>
+							<button type="button">Выбрать!</button>
+						</div>
+
+						<div class="other-legue-coff">
+							<img src="img/slider-teams/team3-big.png" alt="team-logo">
+							<h3>Аль-Ахли - Аль-Джаиш</h3>
+							<button type="button">Выбрать!</button>
+						</div>
+
+						<div class="other-legue-coff">
+							<img src="img/slider-teams/team4-big.png" alt="team-logo">
+							<h3>Аль-Ахли - Аль-Джаиш</h3>
+							<button type="button">Выбрать!</button>
+						</div>
+					</div>
+				</section>		
+				<!-- /.rates-content-wrap5 -->
+
+			</section>
+			<!-- /.main-page-rates-wrap -->
+
+			<!-- left-block -->
+			<section class="left-bar-wrap">
+					<!-- leftbar-news -->
+					<aside class="leftbar-news">
+
+						<div class="subscription">
+							<h2>Оформить подписку</h2>
+							<span>на бесплатные прогнозы</span>
+							<div class="subscription-form">
+								<input type="text" placeholder="Ваш e-mail...">
+								<button>ok</button>
+							</div>
+						</div>
+						<!-- subscription -->
+
+						<div class="news-wrap">
+							<div class="news-block">
+								<h2><a href="#" class="">НБА. Одно очко Батлера, победы Оклахомы, Орлеана и Миннесоты</a></h2>
+								<time datetime="2011-11-18T14:54">2011-11-18 14:54</time>
+							</div>
+							<img src="img/posts-img/1.png" alt="nba">
+						</div>
+						<!-- news1-wrap -->
+
+						<div class="news-wrap">	
+							<div class="news-block">			
+								<h2><a href="#" class="">Карри и Батлер - игроки недели в НБА</a></h2>
+								<time datetime="2011-11-18T14:54">2011-11-18 14:54</time>		
+							</div>	
+							<img src="img/posts-img/2.png" alt="nba">
+							<div class="icon-play-wrap">
+							<i class="icon-play-button"></i>
+							</div>			
+						</div>
+						<!-- news2-wrap -->
+
+						<div class="news-wrap">
+							<div class="news-block">
+								<h2><a href="#" class="">Карри - талисман, мажущий Уэстбрук и подбирающий Джордан 7 янва</a></h2>
+								<time datetime="2011-11-18T14:54">2011-11-18 14:54</time>
+							</div>
+							<img src="img/posts-img/3.png" alt="nba">
+						</div>
+						<!-- news3-wrap -->
+
+						<div class="news-wrap">
+							<div class="news-block">
+								<h2><a href="#" class="">НБА. Эмбиид и Хилд - новички месяца 7 января 2017, 22:15. WTA </a></h2>
+								<time datetime="2011-11-18T14:54">2011-11-18 14:54</time>
+							</div>
+							<img src="img/posts-img/4.png" alt="nba">
+						</div>
+						<!-- news4-wrap -->
+
+						<div class="news-wrap">
+							<div class="news-block">
+								<h2><a href="#" class="">Химик добыл вторую победу в Лиге чемпионов 7 января 2017, 22:15</a></h2>
+								<time datetime="2011-11-18T14:54">2011-11-18 14:54</time>
+							</div>
+							<img src="img/posts-img/5.png" alt="nba">
+						</div>
+						<!-- news5-wrap -->
+
+						<div class="news-wrap">
+							<div class="news-block">
+								<h2><a href="#" class="">Штрафные из-под юбки возвращаются в НБА 7 января 2017, 22:15. W</a></h2>
+								<time datetime="2011-11-18T14:54">2011-11-18 14:54</time>
+							</div>
+							<img src="img/posts-img/6.png" alt="nba">
+						</div>
+						<!-- news6-wrap -->
+
+					</aside>
+					<!-- leftbar-news -->
+			</section>
+			<!-- left-block -->
+		</div>
+		<!-- /.page-inner -->
+
+		<section class="page-inner abaut-site-wrap">
+			<h2 class="">Бесплатные прогнозы на баскетбол</h2>
+			<p>Беттинг становится все более привлекательной сферой для постоянного или дополнительного заработка на территории России и стран СНГ. И это вполне естественно! Если человек отлично владеет темой и умеет предсказывать исход будущей игры в любом виде спорта исходя из опыта, а не эмоций, то из него выйдет отличный гандикаппер. </p>
+			<p>Баскетбол является одним из самых популярных командных видов спорта, так что многие игроки предпочитают делать ставки онлайн именно на игры НБА. Портал Kush v Sporte является сообществом для игроков и прогнозистов, где каждый может почитать платные и бесплатные прогнозы на баскетбол, написать свой аналитический материал и делиться выигрышными стратегиями ставок.</p>
+		</section>
+		<!-- /.abaut-site-block -->
+	</main>
+	<!-- /.main-content -->
+	
+	<!-- footer -->
+	<footer class="page-outer footer">
+		<div class="footer-wrap">
+			<div class="page-inner">
+				<div class="footer-text">© 2011-2016 «Всё про спорт.ру»<br>
+					Любое использование материалов приветствуется при гиперссылке
+				</div>
+				<div class="icon-fotter">
+					<img src="img/fotter-icon.png" alt="fotter-icon">
+				</div>	
+			</div>
+		</div>
+	</footer>
+	<!-- /.footer -->
+
+	<!-- /.diagram -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<!-- /.jquery.ui.min.js -->
+	<script src="ui/jquery-3.4.1.min.js"></script>
+	<!-- /.jquery.ui.js -->
+	<script src="ui/jquery-ui.min.js"></script>
+	<!-- /.jquery.scripst -->
+	<script src="js/jquery.js"></script>
+	<!-- /.img-scroll -->
+	<script src="js/img-scroll.js"></script>
+	<!-- /.slider -->
+	<script src="js/slider-team.js"></script>
+	<!-- /.diagram-script -->
+	<script src="js/diagram.js"></script>
+	
+</body>
+</html>

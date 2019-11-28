@@ -1,0 +1,110 @@
+/* main-content */
+.main-wrap
+    display: flex
+    align-items: flex-start
+
+.article
+    &-wrap
+        background: #ffffff
+        display: flex
+        justify-content: space-between
+        padding: 15px 2px
+        margin-bottom: 10px
+        
+        img
+            border-right: 1px solid #d1e4ed
+            width: 80px
+            height: 100px
+            padding: 20px 30px 30px 20px
+
+.coefficient
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+        padding: 20px 80px 0 25px
+    padding: 20px 150px 0 25px
+    h2
+        margin: 0
+        padding-bottom: 13px
+        font-size: 17px
+        color: #3b3b3b
+    nav
+        font-size: 14px
+        color: #898989
+        time
+            padding-right: 10px
+            border-right: 1px solid #898989
+        span
+            padding-left: 10px
+
+        div
+            margin-top: 20px
+            font-size: 15px
+            color: #3b3b3b
+            display: flex
+            align-items: center
+            span
+                padding-left: 0px
+                display: block
+                width: 150px
+            button
+                margin-left: 55px
+                padding: 8px 25px
+                border-radius: 3px
+                border: none
+                background: #1a506c
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: #154056
+                    color: #ffffff
+
+.button-selector
+    display: flex
+    flex-direction: column
+    border-left: 1px solid #d1e4ed
+    padding: 35px 10px 15px 30px
+    align-items: center
+    min-width: 140px
+    span
+        color: #3b3b3b
+        font-size: 15px
+        margin-bottom: 18px
+    button
+        padding: 10px 30px
+        border-radius: 3px
+        font-size: 15px
+        border: none
+        background: $base-color
+        color: #ffffff
+        cursor: pointer
+        @extend .hover-style
+        &:hover
+            background: rgba(176, 29, 65, .9)
+
+.btn-more-main
+    width: 100%
+    padding: 15px 10px
+    border-radius: 3px
+    font-size: 15px
+    border: none
+    background: $base-color
+    color: #ffffff
+    cursor: pointer
+    @extend .hover-style
+.btn-more-main:hover
+    background: rgba(176, 29, 65, .9)
+
+.abaut-site
+    &-wrap
+        flex-direction: column
+        padding-top: 44px
+        color: #ffffff
+        h2
+            font-size: 17px
+            margin-bottom: 16px
+        p
+            font-size: 14px
+            padding-top: 10px
+            line-height: 1.5
+/* main-content */
+

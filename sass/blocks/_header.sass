@@ -1,0 +1,256 @@
+.navbar
+    &-wrap
+        background: linear-gradient(to right, #203d5a,#5c1928,)
+        background-size: 100% 100%
+    &-wrap>div
+        padding: 15px
+/* /. navbar-wrap */
+
+.header_menu
+  ul
+    margin: 0
+    padding: 0 
+
+  li
+    display: inline-block
+    border-right: 1px solid #ffffff13
+    padding: 4px 0px
+  
+  li:last-child 
+       border-right: none
+  a
+    display: block
+    padding: 6px 12px
+    font-size: 14px
+    color: #ffffff
+    font-weight: regular
+    @extend .hover-style
+    &:hover
+        color: $base-color
+
+.menu-more
+    border-left: 1px solid #ffffff13
+    border-right: 1px solid #ffffff13
+    padding: 0
+    margin-left: 129px
+    right: 0
+
+.menu-adabtive-screen
+    display: none
+    
+.menu-more li ul
+    position: absolute
+    min-width: 290px 
+    background: #1a506c
+    padding: 0
+    margin: 20px auto
+    right: auto
+    display: none
+    text-align: center
+    transform: translate(-87%, 0)
+    z-index: 9999
+
+.menu-more li:hover > ul
+    display: block
+
+.menu-more li ul li
+    float: none
+    text-align: left
+    border-bottom: 1px solid #487389
+    padding: 18px 5px 0px
+
+.menu-more li ul li:last-child 
+       border-bottom: none
+    
+.menu-more li
+    padding: 4px 13px
+    text-transform: uppercase  
+    
+.menu-more li a
+    display: block
+    font-size: 11px
+    color: #ffffff
+    padding-bottom: 18px
+    margin-bottom: -20px
+    @extend .hover-style
+    &:hover
+        color: $base-color
+
+.menu-more li ul li a
+    display: block
+    margin: 0px 10px
+    font-size: 13px
+    color: #ffffff
+    text-transform: none
+    @extend .hover-style
+    &:hover
+        color: #ffffff
+
+.menu-more li ul li:hover
+        background: #154056
+        color: #ffffff
+
+/* /. menu-more */
+
+.navbar-footer
+    &-wrap
+        background: rgba(20, 39, 41, .3)
+        background-size: 100% 100%
+    &-wrap>div
+        padding: 15px 0px
+
+.buttom-days
+    align-self: center
+    display: flex
+    button
+        color: #ffffff
+        padding: 11px 31px
+        border-radius: 3px
+        border: none
+        background: $base-color
+        margin: 3px
+        font-size: 14px
+        cursor: pointer
+        @extend .hover-style
+        &:hover 
+            background: rgba(196, 29, 65, .7)
+    .icon-calendar
+        position: absolute
+        padding: 14px 13px 13px 17px
+    input
+        background: $base-color
+        font-size: 13px
+        border-radius: 3px
+        color: #ffffff
+        padding: 11px 18px 11px 39px
+        margin-top: 3px
+        margin-left: 4px
+        border: none
+        cursor: pointer
+        @extend .hover-style
+        &:hover 
+            background: rgba(196, 29, 65, .7)
+            color: #ffffff
+
+
+.team-slider
+    display: flex
+    width: 521px
+    height: 58px
+    overflow: hidden
+    justify-content: flex-end
+    #polosa
+
+        position: relative
+        transition: all ease 2s
+    #polosa::after
+        content: " "
+        display: block
+        clear: both
+    a
+     
+        img
+            float: left
+
+    .back-icon
+        display: flex
+        background: $base-color
+        border-radius: 80%
+        font-size: 9px
+        font-weight: bold
+        margin: 16px 5px 0px
+        text-align: center
+        padding: 5px 7px 6px 6px
+        align-items: center
+        height: 12px
+        width: 10px
+        @extend .hover-style
+
+    .back-icon:hover
+        background: rgba(196, 29, 65, .7)
+
+    .next-icon
+        display: flex
+        background: $base-color
+        border-radius: 80%
+        font-size: 9px
+        font-weight: bold
+        margin: 16px 5px 0px
+        text-align: center
+        padding: 6px 6px 6px 7px
+        align-items: center
+        height: 12px
+        width: 10px
+        @extend .hover-style
+        
+    .next-icon:hover
+        background: rgba(196, 29, 65, .7)
+    
+    .team-logo
+        width: 10%
+        img
+            border: 1px solid #ffffff
+            border-radius: 80%
+            padding: 10px
+            width: 23px
+            height: 24px
+            margin-right: 10px
+            @extend .hover-style
+            &:hover
+                border: 1px solid rgba(196, 29, 65, .7)
+                background: rgba(196, 29, 65, .1)
+
+/* /. navbar-footer */
+.breadcrumbs
+    padding: 15px 0px
+    a
+        color: #ffffff
+        font-size: 14px
+        transition: all 0.5s
+        @extend .hover-style
+        &:hover
+            color: $base-color
+    i
+        font-size: 9px
+        margin-left: 8px
+/* /. breadcrumbs */
+
+/* datepicker */
+.ui-datepicker, #ui-datepicker-div
+    margin-top: 20px
+    padding: 0
+    border: none
+
+.ui-datepicker-calendar
+    margin: 0
+
+.ui-datepicker .ui-datepicker-header
+    border: none
+    background:#db3259
+    color:#fff
+    font-size: 14px
+    padding: 8px
+
+.ui-datepicker .ui-datepicker-title
+    padding: 10px
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker-next 
+    margin-top: 10px
+
+.ui-widget-header .ui-icon
+    &:hover
+        background: none
+
+.ui-datepicker td
+    padding: 0px
+
+.ui-datepicker-calendar 
+    thead
+        background: $base-color
+        color: #ffffff
+        font-size: 13px
+
+
+
+
+
