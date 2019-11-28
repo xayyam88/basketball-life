@@ -1,79 +1,311 @@
-.left-bar
+/* main-rates-content */
+.rates-content
     &-wrap
-        margin-left: 20px
-        flex-basis: 40%
-
-.subscription
-        background: #1a506c
-        text-align: center
-        color: #ffffff
-        padding: 30px 18px
-        h2
-            font-size: 16px
-            text-transform: uppercase
-        span
-            font-size: 13px
-
-.subscription-form
-    display: flex
-    margin-top: 17px
-    input
-        border: none
-        background: #ffffff
-        font-size: 13px
-        padding: 10px 10px
-        border-radius: 3px
-        margin: 0
-        width: 100%
-        &::placeholder
-    button
-        margin: 0
-        font-size: 14px
-        padding: 10px 10px
-        border: none
-        background: $base-color
-        border-radius: 3px
-        color: #ffffff
-        text-transform: uppercase
-        cursor: pointer
-        @extend .hover-style
-        &:hover
-            background: rgba(176, 29, 65, .9)
-
-.news
+        padding: 10px 10px 20px
+.main-page-rates
     &-wrap
+        max-width: 782px 
+.rates-coffic
+    &-wrap
+        padding: 0px
         display: flex
-        background: #ffffff
-        margin: 5px 0px
-        i
-            color: #ffffff
-            position: absolute
-            background: $base-color
-            border-radius: 60%
-            font-size: 15px
-            padding: 9px 8px 10px 10px
-            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
-                margin: 6px -40px
-            margin: 6px
-            cursor: pointer
-            @extend .hover-style
-            &:hover
-                background: rgba(176, 29, 65, .9)
-            
-        .icon-play-wrap
-            display: flex       
-            justify-content: flex-end
-        .news-block
-            flex-basis: 70%
-            padding: 17px
-            h2
-                font-size: 14px
-                padding-bottom: 5px
-                a
-                    color: #2e2e2e
-                    @extend .hover-style
-                    &:hover
-                        color: rgba(176, 29, 65, .9)                 
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        img
+            border-right: none
+            width: auto
+            padding: 10px 30px 25px 20px      
+        h3
+            display: block ruby
+            margin-top: -20px
+
+        .coef-title-rates
+            display: flex
+            flex-direction: column
+            align-items: center
+            border-right: 1px solid #d1e4ed
+            border-left: 1px solid #d1e4ed
+            border-bottom: 1px solid #d1e4ed
+            padding: 0px 20px 17px
+            width: 200px
+        .coef-title-between
+            border-right: none
+            border-left: none
+            display: flex
+            justify-content: center
+            padding: 0px 40px 55px 40px
             time
-                font-size: 13px
+                display: block ruby
+                color: #3b3b3b
+                font-weight: bold
+                padding-bottom: 10px
+            span
                 color: #898989
+                font-size: 14px
+        .first-cild-title
+            border-left: none
+
+        .last-cild-title
+            border-right: none
+
+        .coefficient-title-button
+            margin-top: 15px
+            button
+                display: flex
+                justify-content: space-between
+                width: 207px
+                align-items: center
+                padding: 12px 17px
+                border-radius: 3px
+                font-size: 14px
+                border: none
+                background: #db3259
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: rgba(176, 29, 65, .9)
+.time-content
+    justify-content: flex-end
+
+/* rates-content-wrap2 */
+.rates-content
+    &-wrap2
+        display: flex
+        flex-wrap: wrap
+        align-items: stretch
+        justify-content: space-between
+        margin-bottom: 15px     
+        div
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            background: #ffffff
+            width: 42%
+            margin: 6px 10px 4px 0px
+            padding: 28px
+        .cofficent-index
+            background: #ffffff
+            h2
+                font-size: 15px
+                padding-bottom: 10px
+            p
+                font-size: 15px
+                color: #3b3b3b
+                margin-bottom: 13px
+            button
+                display: flex
+                justify-content: space-between
+                align-self: center
+                width: 268px
+                align-items: center
+                padding: 12px 17px
+                border-radius: 3px
+                font-size: 14px
+                border: none
+                background: #1a506c
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: #1a4860 
+        .correct-score
+            background: #ffffff
+            margin-right: 0px
+            h2
+                font-size: 15px
+                padding-bottom: 10px
+            p
+                font-size: 15px
+                color: #3b3b3b
+                margin-bottom: 13px
+            button
+                display: flex
+                justify-content: space-between
+                align-self: center
+                width: 268px
+                align-items: center
+                padding: 12px 17px
+                border-radius: 3px
+                font-size: 14px
+                border: none
+                background: #1a506c
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: #1a4860  
+        .on-total
+            background: #ffffff
+            h2
+                font-size: 15px
+                padding-bottom: 10px
+            p
+                font-size: 15px
+                color: #3b3b3b
+                margin-bottom: 13px
+            button
+                display: flex
+                justify-content: space-between
+                align-self: center
+                width: 268px
+                align-items: center
+                padding: 12px 17px
+                border-radius: 3px
+                font-size: 14px
+                border: none
+                background: #1a506c
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: #1a4860
+
+        .handicap
+            background: #ffffff
+            margin-right: 0px
+            h2
+                font-size: 15px
+                padding-bottom: 10px
+            p
+                font-size: 15px
+                color: #3b3b3b
+                margin-bottom: 13px
+            button
+                display: flex
+                justify-content: space-between
+                align-self: center
+                width: 268px
+                align-items: center
+                padding: 12px 17px
+                border-radius: 3px
+                font-size: 14px
+                border: none
+                background: #1a506c
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: #1a4860
+
+/* rates-content-wrap3 */
+.rates-content
+    &-wrap3
+        padding: 0px
+
+.rates
+    &-wrap
+        padding: 30px 15px
+        h2
+            margin: 0px
+            font-size: 21px
+            padding-bottom: 5px
+            padding-left: 15px
+            color: #3b3b3b
+        .tg
+            tr
+                td
+                    padding: 10px
+                    border-right: 1px solid #dae0ed
+                    border-bottom: 1px solid #dae0ed
+                    button
+                        border-radius: 3px
+                        font-size: 14px
+                        border: none
+                        padding: 8px 16px
+                        background: #1a506c
+                        color: #ffffff
+                        cursor: pointer
+                        @extend .hover-style
+                        &:hover
+                            background: #0e1f29
+                th
+                    padding: 10px
+                    border-right: 1px solid #dae0ed
+                    border-bottom: 1px solid #dae0ed
+                    font-size: 15px
+                    color: #3b3b3b
+
+                td:last-child
+                    border-right: none
+
+                th:last-child
+                    border-right: none
+
+                th:first-child
+                    border-right: none
+
+                td:first-child
+                    border-right: none
+                    padding-right: 195px
+                    color: #3b3b3b
+                    font-size: 16px
+            tr:last-child
+                td
+                    border-bottom: none
+
+/* rates-content-wrap4 */
+.rates-content
+    &-wrap4
+        padding: 0px
+        h2
+            margin-bottom: 20px
+        .coefficient-title-button
+            display: flex
+            justify-content: center
+            margin-top: 25px
+            button
+                align-items: center
+                padding: 12px 17px
+                border-radius: 3px
+                font-size: 14px
+                border: none
+                background: #db3259
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: rgba(176, 29, 65, .9)
+
+/* rates-content-wrap5 */
+.rates-content
+    &-wrap5
+        padding: 0px
+        h2
+            margin-bottom: 10px
+        .other-legue-coff
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 15px
+            border-bottom: 1px solid #dae0ed
+            &:last-child
+                border-bottom:  none
+            h3
+                font-size: 16px
+                color: #3b3b3b
+                flex-basis: 70%
+                margin-left: 5px
+            img
+                width: 52px
+                height: 65px
+                margin: 0
+                padding: 0
+                border-right: none
+            button
+                align-items: center
+                padding: 12px 30px
+                border-radius: 3px
+                font-size: 14px
+                border: none
+                background: #db3259
+                color: #ffffff
+                cursor: pointer
+                @extend .hover-style
+                &:hover
+                    background: rgba(176, 29, 65, .9)
+
+.rates-content-wrap5
+    >.rates-wrap
+        width: 100%
