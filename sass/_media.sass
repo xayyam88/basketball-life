@@ -8,6 +8,10 @@ $screen-md-max: 992px
 $screen-lg-max: 1200px
 
 
+@media ( min-width: $screen-lg-max )
+    .coefficient 
+        padding: 20px 150px 0 25px
+
 @media ( max-width: $screen-lg-max )
     .header_menu 
         a
@@ -25,8 +29,6 @@ $screen-lg-max: 1200px
     .menu-more
         margin-left: 140px
 
-    .coefficient
-        margin: 0px
     .button-selector
         padding: 35px 10px 10px 10px
     .article-wrap img 
@@ -86,8 +88,6 @@ $screen-lg-max: 1200px
             font-size: 13px
         .icon-calendar
             font-size: 13px
-    .coefficient
-        margin: 0px
         
     .coefficient nav div button
         margin-left: 0px
@@ -161,9 +161,10 @@ $screen-lg-max: 1200px
 
     .news-wrap .news-block
         flex-basis: 80%
-   
-    .rates-wrap .tg tr td:first-child
-        padding-right: 149px
+    
+    .rates-wrap 
+        h2
+            font-size: 18px
   
 @media ( max-width: $screen-sm )
     .article-wrap
@@ -176,8 +177,9 @@ $screen-lg-max: 1200px
         .coefficient
             text-align: center
             padding-top: 0px
-            margin: 0px
-            nav 
+            h2
+                font-size: 16px
+            nav
                 div
                     justify-content: center
     
@@ -213,13 +215,14 @@ $screen-lg-max: 1200px
     
     .rates-content-wrap3>.rates-wrap
         padding: 10px
-        h1
+        h2
             font-size: 16px
             padding-left: 0px
         .tg
             overflow: auto
             display: block
             padding-left: 0px
+            width: 220px
             tr
                 td
                     padding: 2px
@@ -239,10 +242,12 @@ $screen-lg-max: 1200px
     .rates-content-wrap5
         h1
             font-size: 16px
-        .other-legue-coff 
+        .other-legue-coff
+            h3
+                font-size: 14px
             button
-                padding: 10px 20px
-                font-size: 13px
+                padding: 10px 5px
+                font-size: 11px
     
     .express-wrap 
         .express-sub-wrap
@@ -255,4 +260,23 @@ $screen-lg-max: 1200px
                         div
                             justify-content: center
 
+    .coefficient 
+        nav
+            font-size: 13px
 
+    .subscription-form 
+        input
+            font-size: 11px
+            padding: 8px 8px
+    
+    .buttom-days
+        button
+            padding: 11px 11px
+            font-size: 11px
+        input
+            padding: 11px 16px 11px 30px
+            font-size: 11px
+
+    .rates-wrap 
+        h2
+            font-size: 16px
