@@ -8,11 +8,11 @@ $screen-md-max: 992px
 $screen-lg-max: 1200px
 
 
-@media ( min-width: $screen-lg-max )
+@media only screen and ( min-width: $screen-lg-max )
     .coefficient 
         padding: 20px 150px 0 25px
 
-@media ( max-width: $screen-lg-max )
+@media only screen and ( max-width: $screen-lg-max )
     .header_menu 
         a
             padding: 6px 3px
@@ -73,7 +73,7 @@ $screen-lg-max: 1200px
             width: 740px
             height: 450px
 
-@media ( max-width: $screen-md-max )
+@media only screen and ( max-width: $screen-md-max )
     .header_menu 
         a
             padding: 6px 3px
@@ -128,7 +128,7 @@ $screen-lg-max: 1200px
     .rates-wrap .tg tr td:first-child
         padding-right: 19px
     
-@media ( max-width: $screen-sm-max )
+@media only screen and ( max-width: $screen-sm-max )
     .header_menu
         display: none
     .menu-adabtive-screen
@@ -166,7 +166,7 @@ $screen-lg-max: 1200px
         h2
             font-size: 18px
   
-@media ( max-width: $screen-sm )
+@media only screen and ( max-width: $screen-sm )
     .article-wrap
         flex-direction: column
         align-items: center
