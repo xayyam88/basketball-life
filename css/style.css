@@ -1303,6 +1303,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .coefficient {
+    padding: 20px 10px 0 25px;
+  }
   .header_menu {
     display: none;
   }
